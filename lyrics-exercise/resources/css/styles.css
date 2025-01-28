@@ -1,0 +1,40 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    color: lightgoldenrodyellow;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightgoldenrodyellow
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #c76e00;
+    
+}
+body {
+    background-color: #FFEE8C;
+}
+
+div.song {
+    background-color: lightgoldenrodyellow;
+    margin: 10px 500px;
+    padding: 40px;
+    border-radius: 30px;
+    border: 4px #c76e00 dashed;
+}
+
+header {
+    background-color: #c76e00;
+    padding: 30px;
+    margin: 10px 150px;
+    justify-content: space-between;
+    border-radius: 30px;
+    height: 250px;
+}
