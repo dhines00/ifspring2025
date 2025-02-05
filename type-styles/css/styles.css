@@ -1,0 +1,103 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: block;
+    margin: 8px
+}
+
+section {
+    margin-bottom: 100px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: .4em;
+    color: #bbb;
+    display: block;
+    margin-block-start: .83em;
+    margin-block-end: .83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h3 {
+    font-size: .6rem;
+    margin-bottom: .2em;
+    color: #999;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+section.FontWeight p.Normal {
+    font-weight: normal;
+}
+
+.styledFont {
+    font-family: "Kanit", serif;
+}
+
+p {
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+section.FontWeight p.Bold {
+    font-weight: bold;
+}
+
+section.FontStyle p.Italic {
+    font-style: italic;
+}
+
+section.LetterSpacing p.Wide {
+    letter-spacing: .3em;
+}
+
+section.LetterSpacing p.Narrow {
+    letter-spacing: -.06em;
+}
+
+section.TextDecoration p.Underline {
+    text-decoration: underline;
+}
+
+section.TextDecoration p.LineThrough {
+    text-decoration: line-through;
+}
+
+section.TextDecoration p.Overline {
+    text-decoration: overline;
+}
+
+section.TextTransform p.None {
+    text-transform: none;
+}
+
+section.TextTransform p.Uppercase {
+    text-transform: uppercase;
+}
+
+section.TextTransform p.Lowercase {
+    text-transform: lowercase;
+}
+
+section.TextTransform p.Capitalize {
+    text-transform: capitalize;
+}
