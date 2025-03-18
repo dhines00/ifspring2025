@@ -1,0 +1,66 @@
+html {
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: #f4bc1c;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 10px 200px;
+    padding: 40px;
+    border-radius: 30px;
+    border: 4px #DE7E5D solid;
+}
+
+#dish-info img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: left center;
+    border-radius: 20px;
+}
+
+@media (min-width: 500px) {
+    h1 {text-align: center;
+    font-size: 45px;
+    line-height: 1;
+    margin: 28px};
+}
+
+h1, h2, h3 {
+    color: #DE7E5D;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 35px;
+    border-top: 4px #DE7E5D solid ;
+    padding: 10px;
+    color: brown;
+    background-color: #fbe2a0;
+}
+
+#dish-info p {
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+li {
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 22px;
+    margin-right: 44px;
+}
+
+#instructions img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: left center;
+}
+
+
+
