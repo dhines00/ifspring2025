@@ -1,0 +1,191 @@
+body {
+    font-family: "Gloria Hallelujah", cursive;
+    max-width: 100%;
+    background-color: #CAC9DF;
+}
+
+.home-banner {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-color: #0D1272;
+    border-width: 10pt;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 20.5pt;
+}
+
+h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    background-color:#0D1272;
+    padding: 15px;
+    margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-content a {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-logo img {
+    height: 30px;
+    object-fit: contain;
+    display: flex;
+    padding: 10px;
+}
+
+.home-layout {
+   text-align: left;
+   padding: 100px;
+}
+
+.home-layout img {
+    border: 5px solid #0D1272;
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.home-layout h1 {
+    text-align: center;
+}
+
+.season-one-text h1 {
+    text-align: center;
+}
+
+.season-one-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.season-two-text h1 {
+    text-align: center;
+}
+
+.season-two-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.season-three-text h1 {
+    text-align: center;
+}
+
+.season-three-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.season-four-text h1 {
+    text-align: center;
+}
+
+.season-four-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.season-five-text h1 {
+    text-align: center;
+}
+
+.season-five-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.season-six-text h1 {
+    text-align: center;
+}
+
+.season-six-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.premise {
+    text-align: left;
+    padding: 100px;
+    padding-bottom: 0;
+}
+
+.premise h1 {
+    text-align: center;
+}
+
+.cast-and-characters h1 {
+    text-align: center;
+}
+
+main {
+    padding: 100px;
+    margin: auto;
+}
+
+.main-character {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.main-character img {
+    width: 45%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.notable-character {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.notable-character img {
+    max-width: 250px;
+    object-fit: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.characters {
+    padding: 100px;
+    padding-top: 0;
+}
+
+footer {
+    font-size: 12pt;
+    text-align: center;
+    padding-bottom: 50px;
+}
