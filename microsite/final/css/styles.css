@@ -1,0 +1,200 @@
+body {
+    font-family: "Gloria Hallelujah", cursive;
+    max-width: 100%;
+    background-color: #CAC9DF;
+    margin: 0;
+}
+
+.home-banner {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-color: #1F0954;
+    border-width: 10pt;
+}
+
+p {
+    line-height: 20.5pt;
+}
+
+p { font-size: 14pt; }
+  @media (max-width: 665px) {
+    p { font-size: 10pt; 
+        line-height: 15pt;}
+  }
+
+h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+h1 { font-size: 24pt; }
+    @media (max-width: 665px) {
+        h1 { font-size: 15pt;}
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    background-color:#1F0954;
+    padding: 15px;
+    margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-content {
+    padding: 0px 25px 0px 0px;
+}
+
+.nav-content a {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-logo img {
+    height: 30px;
+    object-fit: contain;
+    display: flex;
+    padding: 10px;
+}
+
+.home-layout {
+   text-align: left;
+}
+
+.home-layout img {
+    border: 5px solid #1F0954;
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.premise-background { padding:  150px 70px 100px 70px; }
+    @media (max-width: 500px) {
+        .premise-background {padding: 40px 20px}
+    }
+
+.premise-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-layout h1 {
+    text-align: left;
+}
+
+.home-layout { padding: 100px; }
+    @media (max-width: 500px) {
+        .home-layout {padding: 20px}
+}
+
+.season-text {
+    text-align: left;
+}
+
+.season-text { padding: 100px 150px 0px 150px; }
+    @media (max-width: 500px) {
+        .season-text {padding: 20px}
+}
+
+.season-text h1 {
+    background-color: #202486;
+    padding: 30px 50px 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+.cast-and-characters h1 {
+    text-align: center;
+}
+
+main {
+    padding: 100px;
+    margin: auto;
+}
+
+.main-character {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.main-character img {
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-character img { max-width: 250px;}
+    @media (max-width: 600px) {
+        .main-character img {max-width: 150px;}
+    }
+
+.notable-character {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.notable-character img {
+    max-width: 250px;
+    object-fit: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.notable-character img { max-width: 250px;}
+    @media (max-width: 600px) {
+        .notable-character img {max-width: 150px;}
+    }
+
+.characters { padding: 0px 100px 100px 100px;}
+    @media (max-width: 600px) {
+        .characters {padding: 20px}
+    }
+
+footer {
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+    padding-top: 50px;
+    background-color: #1F0954;
+    color: whitesmoke;
+}
+
+footer { font-size: 10pt }
+    @media (max-width: 620px) {
+     footer {font-size: 6.5pt}
+}
+
+#season-6.season-text {
+    padding-bottom: 100px;
+}
+
+.notable-characters {
+    padding-top: 50px;
+}
